@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Nav() {
+function Home() {
   return;
 }
 
-export default Nav;
+export default Home;
