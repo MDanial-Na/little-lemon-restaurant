@@ -1,5 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Menu from './components/Home';
 
 function Nav() {
   return;
@@ -19,7 +23,10 @@ function Nav() {
       </li>
     </ul>
     <Routes>
-      <Route></Route>
+      <Route path='/home' element={<Home />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='/menu' element={<Menu />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
     </Routes>
   </Nav>;
 }
