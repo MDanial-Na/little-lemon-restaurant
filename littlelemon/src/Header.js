@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header() {
-  return;
+  return <Header className='App'>littlelemon</Header>;
 }
 
 export default Header;
