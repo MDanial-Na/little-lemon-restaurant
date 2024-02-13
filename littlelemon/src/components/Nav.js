@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
@@ -23,10 +22,10 @@ function Nav() {
       </li>
     </ul>
     <Routes>
-      <Route path='/home' element={<Home />}></Route>
-      <Route path='/about' element={<About />}></Route>
-      <Route path='/menu' element={<Menu />}></Route>
-      <Route path='/contact' element={<Contact />}></Route>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/menu' element={<Menu />} />
+      <Route path='/contact' element={<Contact />} />
     </Routes>
   </Nav>;
 }
