@@ -1,0 +1,58 @@
+1. create repo at github
+2. copy the https code
+3. open git bash
+4. create directory example mkdir projects
+5. git clone (the https code paste here)
+6. create txt file in new directory
+7. use touch (name of the file) example touch test.txt
+8. git status to see the status
+9. git add test.txt
+10. git restore --stage test.txt
+11. git commit -m(message) "this is a new testing file"
+12. git push
+
+to get latest update from github
+1. cd to the directory
+2. git pull
+
+to create a branch
+1. pwd
+2. git status
+3. git checkout -B feature/lesson (feature/lesson the name of the branch)
+git checkout -B  move into new branch
+4. to verify that we move to new branch by using git branch
+5. git push -u origin feature/lesson (to push the changes to github)
+
+create a second repo
+1. mkdir my-second-repo
+2. cd my-second-repo
+3. git init (to initialize the new repo)
+
+to create a git remote to new directory
+1. copy the git remote from working repo 
+using th git remote -v (fetch)
+2. and copy at new repo using
+git remote add origin (copy the link here)
+3.git pull
+4. git checkout main
+
+
+add++
+1. how to delete repo and directory at git bash
+ rm -fr .git
+
+to open the file from git bash
+1. use cat (file name)
+
+to edit the file from git bash
+1. use nano (file name)
+
+use git diff to see the changes that have been made in file
+1. nano (file name)
+2. git diff (file name)
+
+use git blame to see the details who made a changes
+1. git blame (file name)
+
+use git push --force
+to force a file into github
