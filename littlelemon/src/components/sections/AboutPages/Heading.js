@@ -5,7 +5,7 @@ function Heading() {
       <img
         className="header-reserve"
         src={HeroImage}
-        alt="Little Lemon Ingredients"
+        alt="Little Lemon Ingredients trying"
       ></img>
       <div className="reserve-header-text">
         <h1>About us la ape lagi tak akan la orang lain</h1>
