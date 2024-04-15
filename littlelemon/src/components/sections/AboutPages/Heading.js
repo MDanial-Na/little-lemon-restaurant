@@ -8,7 +8,7 @@ function Heading() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="reserve-header-text">
-        <h1>About me only else</h1>
+        <h1>About me and you else</h1>
       </div>
     </header>
   );
