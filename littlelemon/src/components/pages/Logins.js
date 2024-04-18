@@ -10,7 +10,7 @@ function Logins() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="login-header-text">
-        <h1>Login</h1>
+        <h1>Login / Sign Up</h1>
       </div>
     </header>
     </div>
