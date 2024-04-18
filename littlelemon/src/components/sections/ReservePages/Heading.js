@@ -1,4 +1,4 @@
-import HeroImage from "../../../assets/food/food4.jpg";
+import HeroImage from "../../../assets/food/ll-restaurant3.jpeg";
 function Heading() {
   return (
     <header className="reserve-table">
