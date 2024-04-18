@@ -352,7 +352,7 @@ footer > menu {
 .reserve-table {
   position: relative;
   text-align: center;
-  color: white;
+  color: yellow;
   margin-top: -1.4rem;
   overflow: hidden;
 }
@@ -621,4 +621,28 @@ footer > menu {
   display: none;
 }
 
+/* Login */
+.login {
+  position: relative;
+  text-align: center;
+  color: yellow;
+  margin-top: -1.4rem;
+  overflow: hidden;
+}
 
+.login-header {
+  width: 100vw; /* width of container */
+  height: 20rem; /* height of container */
+  object-fit: cover;
+}
+
+.login-header-text {
+  background-color: #495e57;
+  padding: 0 3rem 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 0.5rem;
+}

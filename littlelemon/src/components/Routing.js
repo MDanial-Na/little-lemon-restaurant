@@ -2,7 +2,7 @@ import {Routes, Route} from 'react-router-dom';
 import Homepage from './pages/HomePage';
 import About from './pages/About';
 import Reservations from './pages/Reservations'
-import Login from './pages/Login'
+import Logins from './pages/Logins'
 import Order from './pages/Order';
 import Confirmation from './pages/Confirmation';
 
@@ -18,7 +18,7 @@ function Routing() {
 
         <Route path='order' element={<Order />} />
 
-        <Route path='login' element={<Login />} />
+        <Route path='login' element={<Logins />} />
 
         <Route path='confirmation' element={<Confirmation />} />
     </Routes>
