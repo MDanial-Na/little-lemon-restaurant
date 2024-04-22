@@ -1,8 +1,18 @@
-import Heading from "../sections/AboutPages/Heading";
+import HeroImage from '../../assets/food/food6.jpg'
+
 function About() {
   return (
     <>
-      <Heading />
+      <header className="reserve-table">
+      <img
+        className="header-reserve"
+        src={HeroImage}
+        alt="Little Lemon Ingredients"
+      ></img>
+      <div className="reserve-header-text">
+        <h1>About</h1>
+      </div>
+    </header>
     </>
   );
 }

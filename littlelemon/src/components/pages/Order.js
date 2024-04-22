@@ -10,7 +10,7 @@ function Order() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="reserve-header-text">
-        <h1>Order Online ha</h1>
+        <h1>Online Order</h1>
       </div>
     </header>
     </>

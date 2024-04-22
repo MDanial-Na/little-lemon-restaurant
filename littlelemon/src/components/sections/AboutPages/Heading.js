@@ -8,7 +8,7 @@ function Heading() {
         alt="Little Lemon Ingredients"
       ></img>
       <div className="reserve-header-text">
-        <h1>About me zzzz you else aiyoo aaaaaao apo</h1>
+        <h1>About</h1>
       </div>
     </header>
   );
