@@ -20,14 +20,9 @@ function Navigation(props) {
       <Link className="hover-effect" to="/about">
         <h1>About</h1>
       </Link>
-      <a
-        className="hover-effect"
-        href={require("../assets/menu.jpg")}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <Link className="hover-effect" to="/menu">
         <h1>Menu</h1>
-      </a>
+      </Link>
       <Link className="hover-effect" to="/reservations">
         <h1>Reservations</h1>
       </Link>

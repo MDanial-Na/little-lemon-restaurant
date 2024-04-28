@@ -14,13 +14,7 @@ export default function Footer() {
           <ul className="footer-links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <a
-              href={require("../assets/menu.jpg")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Menu
-            </a>
+            <Link to="/menu">Menu</Link>
             <Link to="/reservations">Reservations</Link>
             <Link to="/order">Order</Link>
             <Link to="/login">Login</Link>

@@ -9,7 +9,7 @@ const Login = () => {
     const [action, setAction] = useState("Sign Up");
 
   return (
-    <div>
+    <div className="specials">
         <div className='inputs'>
         {
             //using ternary operator to determine the user option. if user click at sign up user will need to enter name and viseversa

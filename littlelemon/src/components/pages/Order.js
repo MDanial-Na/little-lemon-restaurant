@@ -1,19 +1,21 @@
 import HeroImage from '../../assets/food/food9.jpg';
+import Heading from '../sections/OrderPages/Heading';
 
 function Order() {
   return (
-    <>
-      <header className="reserve-table">
+    <div>
+      <header className="order">
       <img
-        className="header-reserve"
+        className="order-header"
         src={HeroImage}
         alt="Little Lemon Ingredients"
       ></img>
-      <div className="reserve-header-text">
+      <div><Heading /></div>
+      <div className="order-header-text">
         <h1>Online Order</h1>
       </div>
     </header>
-    </>
+    </div>
   );
 }
 
