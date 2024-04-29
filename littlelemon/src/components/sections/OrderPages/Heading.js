@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import './Heading.css';
 import person from '../../../assets/person.png';

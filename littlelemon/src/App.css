@@ -163,6 +163,11 @@ Link:link {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2vw;
+  transition: all 500ms ease-in-out;
+}
+
+.specials-cards:hover {
+  transform: scale(1.1);
 }
 
 .menu-card {
