@@ -11,7 +11,7 @@ function Menu() {
             alt="Menu"
         ></img>
         <div className="menu-header-text">
-            <h1>Menu</h1>
+            <h1>Our Menu</h1>
         </div>
     </header>
   </div>
