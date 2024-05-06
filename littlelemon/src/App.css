@@ -38,7 +38,7 @@ menu {
 }
 
 button {
-  background-color: white;
+  background-color: #E83C27;
   border: none;
 }
 
@@ -55,7 +55,7 @@ Link:link {
 }
 
 .action-button {
-  background-color: #f4ce14;
+  background-color: #acdf87;
   padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 0.2rem;
   font-family: "Karla";
@@ -63,8 +63,8 @@ Link:link {
 }
 
 .action-button:hover {
-  background-color: #495e57;
-  color: #eeeeee;
+  background-color: #FFD23F;
+  color: #000000;
   border-style: solid;
   border-width: 1px;
   border-color: #edefee;
@@ -99,7 +99,7 @@ Link:link {
 }
 
 .hover-effect:hover {
-  background-color: #f4ce14;
+  background-color: #acdf87;
   transition: 0.25s;
 }
 
@@ -111,7 +111,7 @@ Link:link {
 
 /* CALL TO ACTION */
 .call-to-action {
-  background-color: #495e57;
+  background-color: #355E3B;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -120,18 +120,18 @@ Link:link {
 }
 
 .hero-text > h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 0rem;
   margin-bottom: -3rem;
 }
 
 .hero-text > h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .hero-image {
-  max-height: 17rem;
-  padding-left: 2rem;
+  max-height: 20rem;
+  padding-left: 3rem;
 }
 
 .hero-image > img {
@@ -161,17 +161,15 @@ Link:link {
 
 .specials-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2vw;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1vw;
   transition: all 500ms ease-in-out;
+  color: #ffffff;
 }
 
-.specials-cards:hover {
-  transform: scale(1.1);
-}
 
 .menu-card {
-  background-color: #edefee;
+  background-color: #355E3B;
   padding-bottom: 1rem;
 }
 
@@ -196,15 +194,15 @@ Link:link {
 }
 
 .special-button {
-  background-color: #f4ce14;
+  background-color: #acdf87;
   border-radius: 0.2rem;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
 .special-button:hover {
-  background-color: #495e57;
-  color: #eeeeee;
+  background-color: #FFD23F;
+  color: #000000;
   border-style: solid;
   border-width: 0.1rem;
   border-color: black;
@@ -218,22 +216,19 @@ Link:link {
 /* TESTIMONIAL CARDS */
 .testimonials {
   padding: 0 5rem 2rem 5rem;
-  animation-duration: 0.33s;
-  animation-timing-function: ease-in-out;
-  animation-name: slideDownFade;
 }
 
 .testimonials-topbar > h1{
-  text-align: center;
+  text-align: flex-start;
   font-size: 3rem;
   margin: 4rem 0 1rem 0;
 }
 
 .testimonials-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 2vw;
+  grid-gap: 1vw;
   align-items: center;
 }
 
@@ -258,7 +253,7 @@ Link:link {
 
 /* ABOUT */
 .about-us {
-  background-color: #f4ce14;
+  background-color: #FFD23F;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1.25rem 5rem 2.5rem 5rem;
@@ -286,17 +281,27 @@ Link:link {
 
 .about-1 {
   position: relative;
-  top: 0;
-  left: 0;
+  top: -2rem;
+  left: -30rem;
 }
 
 .about-2 {
   position: absolute;
   top: -3.5rem;
-  left: 5rem;
+  left:5rem;
 }
 
+.about-3 {
+  position: absolute;
+  top: -4rem;
+  right: 5rem; 
+}
 
+.about-4 {
+  position: absolute;
+  top: -59.5rem;
+  left:7rem;
+}
 
 /* RESERVE A TABLE */
 .reserve-table {
