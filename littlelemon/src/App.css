@@ -121,12 +121,13 @@ Link:link {
 
 .hero-text > h1 {
   font-size: 4rem;
-  margin-top: 0rem;
+  margin-top: 2rem;
   margin-bottom: -3rem;
 }
 
 .hero-text > h2 {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .hero-image {
@@ -263,7 +264,10 @@ Link:link {
 }
 
 .about-subtext {
-  margin-top: -1.5rem;
+  margin-top: -2rem;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: auto;
 }
 
 .double-image {
@@ -287,20 +291,20 @@ Link:link {
 
 .about-2 {
   position: absolute;
-  top: -3.5rem;
-  left:5rem;
+  top: -2rem;
+  left: -15rem;
 }
 
 .about-3 {
   position: absolute;
-  top: -4rem;
-  right: 5rem; 
+  top: -2rem;
+  left: -0rem; 
 }
 
 .about-4 {
   position: absolute;
-  top: -59.5rem;
-  left:7rem;
+  top: -2rem;
+  left: 15rem;
 }
 
 /* RESERVE A TABLE */

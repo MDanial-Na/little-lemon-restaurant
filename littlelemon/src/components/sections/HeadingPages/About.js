@@ -12,9 +12,9 @@ function About() {
 
             <section className="double-image">
                 <img className="about-1" src={require('../../../assets/food/food8.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-2" src={require('../../../assets/food/food9.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
-                <img className="about-3" src={require('../../../assets/food/food8.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-4" src={require('../../../assets/food/food9.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
+                <img className="about-2" src={require('../../../assets/food/food7.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
+                <img className="about-3" src={require('../../../assets/food/bruschetta.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
+                <img className="about-4" src={require('../../../assets/food/chicken-soup.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
             </section>
     </article>
     );
