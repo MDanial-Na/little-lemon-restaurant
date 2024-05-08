@@ -1,5 +1,5 @@
 import HeroImage from '../../assets/food/food9.jpg';
-import Heading from '../sections/OrderPages/Heading';
+import Heading from '../sections/OrderPages/OrderHeading';
 
 function Order() {
   return (

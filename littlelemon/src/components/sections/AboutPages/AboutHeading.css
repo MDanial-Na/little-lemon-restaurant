@@ -1,0 +1,65 @@
+/* ABOUT */
+
+.hero-text > h1 {
+  font-size: 4rem;
+  margin-bottom: -3rem;
+}
+
+.hero-text > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about {
+  background-color: #FFD23F;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0rem 5rem 2.5rem 5rem;
+  min-height: 22rem;
+  margin-bottom: -1rem;
+  grid-gap: 25vw;
+}
+
+.about-subtext {
+  margin-top: -2rem;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.images {
+  max-height: 18rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.images > img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-1 {
+  position: relative;
+  top: -2rem;
+  left: -30rem;
+}
+
+.about-2 {
+  position: absolute;
+  top: -2rem;
+  left: -15rem;
+}
+
+.about-3 {
+  position: absolute;
+  top: -2rem;
+  left: -0rem; 
+}
+
+.about-4 {
+  position: absolute;
+  top: -2rem;
+  left: 15rem;
+}

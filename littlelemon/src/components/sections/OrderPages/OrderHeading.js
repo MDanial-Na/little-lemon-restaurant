@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import './Heading.css';
+import './OrderHeading.css';
 import person from '../../../assets/person.png';
 import email from '../../../assets/email.png';
 import password from '../../../assets/password.png';
 
-const Heading = () => {   
+const OrderHeading = () => {   
 
     const [action, setAction] = useState("Sign Up");
 
@@ -48,7 +48,7 @@ const Heading = () => {
   )
 }
 
-export default Heading
+export default OrderHeading
 
 
 

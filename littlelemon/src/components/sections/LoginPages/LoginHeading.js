@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import './Login.css'; 
+import './LoginHeading.css'; 
 import person from '../../../assets/person.png';
 import email from '../../../assets/email.png';
 import password from '../../../assets/password.png';
 
-const Login = () => {   
+const LoginHeading = () => {   
 
     const [action, setAction] = useState("Sign Up");
 
@@ -48,7 +48,7 @@ const Login = () => {
   )
 }
 
-export default Login
+export default LoginHeading
 
 
 

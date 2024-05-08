@@ -270,14 +270,14 @@ Link:link {
   text-justify: auto;
 }
 
-.double-image {
+.images {
   max-height: 18rem;
   position: relative;
   top: 4rem;
   left: 2rem;
 }
 
-.double-image > img {
+.images > img {
   width: 60%;
   height: 100%;
   object-fit: cover;
@@ -311,9 +311,11 @@ Link:link {
   background-color: #acdf87;
   border-radius: 0.2rem;
   font-family: "Karla";
-  font-size: 2rem;
+  font-size: 1.5rem;
   position:absolute;
-  margin-top: 280px;
+  margin-top: -100px;
+  left: 5rem;
+  padding: 10px;
 }
 
 .about-action-button:hover {
@@ -344,7 +346,7 @@ Link:link {
   background-color: #355E3B;
   padding: 0 3rem 0 3rem;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
@@ -596,32 +598,6 @@ Link:link {
 
 .carousel > .thumbs-wrapper {
   display: none;
-}
-
-/* Login */
-.login {
-  position: relative;
-  text-align: center;
-  color: #FFD23F;
-  margin-top: -1.4rem;
-  overflow: hidden;
-}
-
-.login-header {
-  width: 100vw; /* width of container */
-  height: 20rem; /* height of container */
-  object-fit: cover;
-}
-
-.login-header-text {
-  background-color: #355E3B;
-  padding: 0 3rem 0 3rem;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  border-radius: 0.5rem;
 }
 
 

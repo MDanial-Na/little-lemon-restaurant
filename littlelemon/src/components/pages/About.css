@@ -1,0 +1,25 @@
+.about-table {
+    position: relative;
+    text-align: center;
+    color: #FFD23F;
+    margin-top: -1.4rem;
+    overflow: hidden;
+  }
+  
+  .about-header {
+    width: 100vw; /* width of container */
+    height: 20rem; /* height of container */
+    object-fit: cover;
+  }
+  
+  .about-header-text {
+    background-color: #355E3B;
+    padding: 0 3rem 0 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    border-radius: 0.5rem;
+  }
+  
