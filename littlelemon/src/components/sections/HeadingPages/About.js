@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function About() {
     return (
         <article className="about-us">
@@ -16,7 +18,8 @@ function About() {
                 <img className="about-3" src={require('../../../assets/food/bruschetta.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
                 <img className="about-4" src={require('../../../assets/food/chicken-soup.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
             </section>
-    </article>
+            <Link className="about-action-button" to="/about">About Page</Link>
+        </article>
     );
 
 }

@@ -307,11 +307,29 @@ Link:link {
   left: 15rem;
 }
 
+.about-action-button {
+  background-color: #acdf87;
+  border-radius: 0.2rem;
+  font-family: "Karla";
+  font-size: 2rem;
+  position:absolute;
+  margin-top: 280px;
+}
+
+.about-action-button:hover {
+  background-color: #355E3B;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #edefee;
+  transition: 0.2s;
+}
+
 /* RESERVE A TABLE */
 .reserve-table {
   position: relative;
   text-align: center;
-  color: yellow;
+  color: #FFD23F;
   margin-top: -1.4rem;
   overflow: hidden;
 }
@@ -323,7 +341,7 @@ Link:link {
 }
 
 .reserve-header-text {
-  background-color: #495e57;
+  background-color: #355E3B;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 50%;
@@ -367,7 +385,7 @@ Link:link {
 }
 
 .redirect-button {
-  background-color: #464646;
+  background-color: #355E3B;
   color: white !important;
   padding: 2vh 2rem 2vh 2rem;
   border-radius: 0.5rem;
@@ -377,8 +395,8 @@ Link:link {
 }
 
 .redirect-button:hover {
-  background-color: #f4ce14;
-  color: #464646 !important;
+  background-color: #FFD23F;
+  color: #355E3B !important;
   transition: 0.2s;
 }
 
@@ -433,7 +451,7 @@ Link:link {
 
   .testimonials-carousel {
     display: block;
-    background-color: #edefee;
+    background-color: #355E3B;
     padding-bottom: 0;
   }
 
@@ -584,7 +602,7 @@ Link:link {
 .login {
   position: relative;
   text-align: center;
-  color: yellow;
+  color: #FFD23F;
   margin-top: -1.4rem;
   overflow: hidden;
 }
@@ -596,7 +614,7 @@ Link:link {
 }
 
 .login-header-text {
-  background-color: #495e57;
+  background-color: #355E3B;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 15%;
@@ -612,7 +630,7 @@ Link:link {
 .order {
   position: relative;
   text-align: center;
-  color: yellow;
+  color: #FFD23F;
   margin-top: -1.4rem;
   overflow: hidden;
 }
@@ -624,7 +642,7 @@ Link:link {
 }
 
 .order-header-text {
-  background-color: #495e57;
+  background-color: #355E3B;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 15%;
@@ -637,7 +655,7 @@ Link:link {
 /* FOOTER STYLING */
 footer {
   min-height: 13rem;
-  background-color: #495e57;
+  background-color: #355E3B;
   color: #ffffff;
   padding-bottom: 1rem;
   margin-top: -1.4rem;
@@ -668,7 +686,7 @@ footer > menu {
 
 .footer-links > a:hover,
 .footer-links > Link:hover {
-  background-color: #495e57;
+  background-color: #355E3B;
   text-decoration: underline;
 }
 
@@ -687,7 +705,7 @@ footer > menu {
   transform: translateY(-50%);
   margin-right: 3rem;
 
-  background-color: white;
+  background-color: #FFD23F;
   padding: 0.5rem;
 }
 
@@ -695,7 +713,7 @@ footer > menu {
 .menu {
   position: relative;
   text-align: center;
-  color: yellow;
+  color: #FFD23F;
   margin-top: -1.4rem;
   overflow: hidden;
 }
@@ -707,7 +725,7 @@ footer > menu {
 }
 
 .menu-header-text {
-  background-color: #495e57;
+  background-color: #355E3B;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 50%;
