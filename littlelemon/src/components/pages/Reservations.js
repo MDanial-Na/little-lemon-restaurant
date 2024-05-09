@@ -1,4 +1,4 @@
-import Heading from "../sections/ReservePages/Heading";
+import Heading from "../sections/ReservePages/ReservePagesHeading";
 import ReservationForm from "../sections/ReservePages/BookingForm";
 import { useReducer } from "react";
 import { fetchAPI } from "../../bookingsAPI";

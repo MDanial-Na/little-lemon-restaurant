@@ -9,7 +9,7 @@ const LoginHeading = () => {
     const [action, setAction] = useState("Sign Up");
 
   return (
-    <div className="specials">
+    <div>
         <div className='inputs'>
         {
             //using ternary operator to determine the user option. if user click at sign up user will need to enter name and viseversa

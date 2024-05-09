@@ -11,10 +11,10 @@ function Logins() {
         src={HeroImage}
         alt="Little Lemon Ingredients"
       ></img>
-      <div><Login /></div>
       <div className="login-header-text">
         <h1>Login / Sign Up</h1>
       </div>
+      <div><Login /></div>
     </header>
     </div>
   );

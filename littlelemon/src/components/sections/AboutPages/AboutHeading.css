@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 
-.about {
+.main {
   background-color: #FFD23F;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,39 +27,9 @@
   text-justify: auto;
 }
 
-.images {
+.image {
   max-height: 18rem;
   position: relative;
   top: 4rem;
   left: 2rem;
-}
-
-.images > img {
-  width: 60%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.about-1 {
-  position: relative;
-  top: -2rem;
-  left: -30rem;
-}
-
-.about-2 {
-  position: absolute;
-  top: -2rem;
-  left: -15rem;
-}
-
-.about-3 {
-  position: absolute;
-  top: -2rem;
-  left: -0rem; 
-}
-
-.about-4 {
-  position: absolute;
-  top: -2rem;
-  left: 15rem;
 }

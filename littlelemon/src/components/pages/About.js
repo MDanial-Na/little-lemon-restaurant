@@ -5,7 +5,7 @@ import './About.css'
 function About() {
   return (
     <>
-      <header className="about-table">
+      <header className="about">
       <img
         className="about-header"
         src={HeroImage}
@@ -14,8 +14,9 @@ function About() {
       <div className="about-header-text">
         <h1>About</h1>
       </div>
+      <Heading />
     </header>
-    <Heading />
+    
     </>
   );
 }

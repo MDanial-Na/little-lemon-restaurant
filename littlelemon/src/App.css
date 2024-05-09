@@ -327,31 +327,7 @@ Link:link {
   transition: 0.2s;
 }
 
-/* RESERVE A TABLE */
-.reserve-table {
-  position: relative;
-  text-align: center;
-  color: #FFD23F;
-  margin-top: -1.4rem;
-  overflow: hidden;
-}
 
-.header-reserve {
-  width: 100vw; /* width of container */
-  height: 20rem; /* height of container */
-  object-fit: cover;
-}
-
-.reserve-header-text {
-  background-color: #355E3B;
-  padding: 0 3rem 0 3rem;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 25px;
-  border-radius: 0.5rem;
-}
 
 .reservation-form {
   padding: 2rem 0 0.5rem 0;

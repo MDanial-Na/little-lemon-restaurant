@@ -1,4 +1,4 @@
-import Heading from "../sections/HeadingPages/Heading";
+import Heading from "../sections/HeadingPages/HomePageHeading";
 import Specials from "../sections/HeadingPages/Specials";
 import Testimonials from "../sections/HeadingPages/Testimonials";
 import About from "../sections/HeadingPages/HomePageAbout";

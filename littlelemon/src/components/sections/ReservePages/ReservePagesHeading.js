@@ -1,5 +1,7 @@
 import HeroImage from "../../../assets/food/ll-restaurant3.jpeg";
-function Heading() {
+import './ReservePagesHeading.css'
+
+function ReservePagesHeading() {
   return (
     <header className="reserve-table">
       <img
@@ -16,4 +18,4 @@ function Heading() {
 
 
 
-export default Heading;
+export default ReservePagesHeading;

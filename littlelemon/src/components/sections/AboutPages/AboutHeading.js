@@ -2,7 +2,7 @@ import './AboutHeading.css';
 
 function AboutHeading() {
   return (
-    <article className="about">
+    <article className="main">
             <section className="hero-text">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
@@ -12,11 +12,8 @@ function AboutHeading() {
                 continue to oversee the Little Lemon restaurant, nearly thirty years later.</p>
             </section>
 
-            <section className="images">
-                <img className="about-1" src={require('../../../assets/food/food8.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-2" src={require('../../../assets/food/food7.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
-                <img className="about-3" src={require('../../../assets/food/bruschetta.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-4" src={require('../../../assets/food/chicken-soup.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
+            <section className="image">
+                <img src={require('../../../assets/italian_male.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
             </section>
         </article>
   )
