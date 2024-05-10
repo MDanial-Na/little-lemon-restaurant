@@ -5,7 +5,7 @@ function ReservePagesHeading() {
   return (
     <header className="reserve-table">
       <img
-        className="header-reserve"
+        className="reserve-header"
         src={HeroImage}
         alt="Little Lemon Ingredients"
       ></img>

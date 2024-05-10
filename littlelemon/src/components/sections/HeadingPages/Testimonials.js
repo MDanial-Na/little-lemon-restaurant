@@ -1,5 +1,5 @@
-import Carousel from './TestimonialCarousel'
 import TestimonialCard from './CardInfo/TestimonialCard';
+
 function Testimonials() {
     return (
         <section className="testimonials">
@@ -29,9 +29,6 @@ function Testimonials() {
                 long night of studying. I would definitely order from here again!"/>
             </section>
 
-            <section className="testimonials-carousel">
-                <Carousel />
-            </section>
         </section>
     );
 }

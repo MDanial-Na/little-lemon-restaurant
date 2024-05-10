@@ -1,4 +1,5 @@
 import HeroImage from '../../assets/food/food7.jpg'
+import './Menu.css';
 
 
 function Menu() {

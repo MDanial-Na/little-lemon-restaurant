@@ -5,6 +5,7 @@ import LemonDessert from '../../../assets/food/lemon-dessert.jpg';
 import Bakedchicken from '../../../assets/food/baked-chicken.jpg';
 import Chickensoup from '../../../assets/food/chicken-soup.jpg';
 import SpecialCard from './CardInfo/SpecialCard';
+import './Specials.css';
 import { Link } from 'react-router-dom';
 
 function Specials() {

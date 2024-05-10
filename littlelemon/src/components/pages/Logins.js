@@ -1,6 +1,6 @@
 import HeroImage from '../../assets/food/food11.jpg'
 import Login from '../sections/LoginPages/LoginHeading';
-import './Login.css'
+import './Logins.css'
 
 function Logins() {
   return (

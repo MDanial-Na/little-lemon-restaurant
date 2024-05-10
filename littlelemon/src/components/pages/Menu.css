@@ -1,19 +1,22 @@
-/* RESERVE A TABLE */
-.reserve-table {
+/* Menu */
+.menu {
     position: relative;
     text-align: center;
     color: #FFD23F;
     margin-top: -1.4rem;
     overflow: hidden;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: slideDownFade;
   }
   
-  .reserve-header {
+  .menu-header {
     width: 100vw; /* width of container */
     height: 20rem; /* height of container */
     object-fit: cover;
   }
   
-  .reserve-header-text {
+  .menu-header-text {
     background-color: #355E3B;
     padding: 0 3rem 0 3rem;
     position: absolute;

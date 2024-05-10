@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-export default function Footer() {
+import './Footer.css';
+
+function Footer() {
   return (
     <footer>
       <menu>
@@ -49,7 +51,7 @@ export default function Footer() {
               Facebook
             </a>
             <a
-              href="https://www.instagram.com/littlelemonmoon/"
+              href="https://www.instagram.com/littlelemon/"
               target="_blank"
               rel="noreferrer"
             >
@@ -61,3 +63,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+
+export default Footer;
