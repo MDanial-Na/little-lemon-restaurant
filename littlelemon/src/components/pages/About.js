@@ -14,9 +14,8 @@ function About() {
       <div className="about-header-text">
         <h1>About</h1>
       </div>
-      <Heading />
     </header>
-    
+    <Heading /> 
     </>
   );
 }

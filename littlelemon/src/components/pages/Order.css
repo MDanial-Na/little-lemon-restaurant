@@ -5,6 +5,9 @@
     color: #FFD23F;
     margin-top: -1.4rem;
     overflow: hidden;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: slideDownFade;
   }
   
   .order-header {
