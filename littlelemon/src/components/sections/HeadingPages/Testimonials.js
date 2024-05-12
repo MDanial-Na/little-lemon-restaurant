@@ -25,8 +25,8 @@ function Testimonials() {
                  out at least once if they live in Chicago."/>
                 <TestimonialCard name="Jack Hu" description="This restaurant served as a perfect dinner for me after a 
                 long night of studying. I would definitely order from here again!"/>
-                <TestimonialCard name="Jack Hu" description="This restaurant served as a perfect dinner for me after a 
-                long night of studying. I would definitely order from here again!"/>
+                <TestimonialCard name="Jack Sparrow" description="I recently had the pleasure of dining at Little Lemon, and it was a delightful experience from start to finish.
+                Ambiance: The ambiance of the place was cozy yet elegant.)"/>
             </section>
 
         </section>
