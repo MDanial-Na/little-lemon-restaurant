@@ -13,7 +13,7 @@
 .about-page {
   background-color: #FFD23F;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   padding: 0rem 5rem 2.5rem 5rem;
   min-height: 22rem;
   margin-bottom: -1rem;
