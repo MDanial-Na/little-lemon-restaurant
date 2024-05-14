@@ -1,46 +1,86 @@
 /* ABOUT */
-
-.hero-text-page > h1 {
-  font-size: 4rem;
-  margin-bottom: -3rem;
-}
-
-.hero-text-page > h2 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.about-page {
-  background-color: #FFD23F;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  padding: 0rem 5rem 2.5rem 5rem;
-  min-height: 22rem;
-  margin-bottom: -1rem;
-  margin-top: -1rem;;
-  grid-gap: 25vw;
+.main-about {
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-name: slideDownFade;
 }
 
+.hero-text-page > h1 {
+  font-size: 4rem;
+  margin-bottom: -3rem;
+  color:#FFD23F;
+}
+
+.hero-text-page > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color:#FFD23F;
+}
+
+.about-page {
+  display: grid;
+  grid-template-columns:2fr 1fr;
+  padding: 0rem 5rem 2.5rem 5rem;
+  min-height: 22rem;
+  margin-bottom: -1rem;
+  margin-top: -1rem;;
+  grid-gap: 25vw;
+  
+}
+
+.about-page2 {
+  display: grid;
+  grid-template-columns:1fr 2fr;
+  padding: 0rem 5rem 10rem 0rem;
+  min-height: 22rem;
+  margin-bottom: 10rem;
+  margin-top: -1rem;;
+  grid-gap: 25vw;
+}
+
 .about-subtext-page {
   margin-top: -2rem;
-  font-weight: bold;
+  margin-right:-5rem ;
   text-align: justify;
   position: relative;
   top: 1rem;
   left: 0rem;
 }
+
+.about-subtext-page2 {
+  margin-top: -3rem;
+  margin-right: 8rem;
+  margin-left: 4rem;
+  text-align: justify;
+  position:relative;
+  top: 8rem;
+  left: 5rem;
+  font-size: 1.3rem;
+}
+
 .image-page {
   max-height: 25rem;
   position: relative;
-  top: 1rem;
-  left: -5rem;
+  top: 5rem;
+  left: -25rem;
+}
+
+.image-page2 {
+  max-height: 25rem;
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  margin-right: -1rem;
 }
 
 .image-page > img {
-  width: 100%;
+  width: 200%;
   height: 100%;
   object-fit: contain;
+}
+
+.image-page2 > img {
+  width: 200%;
+  height: 100%;
+  object-fit: cover;
 }
