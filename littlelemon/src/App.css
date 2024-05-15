@@ -130,7 +130,7 @@ a:link{
 
 .hero-image {
   max-height: 20rem;
-  padding-left: 3rem;
+  padding-left: -5rem;
 }
 
 .hero-image > img {

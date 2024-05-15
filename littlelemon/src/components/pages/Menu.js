@@ -1,5 +1,7 @@
 import HeroImage from '../../assets/food/food7.jpg'
+import Carousel from '../sections/Carousel';
 import './Menu.css';
+
 
 
 function Menu() {
@@ -15,6 +17,7 @@ function Menu() {
             <h1>Our Menu</h1>
         </div>
     </header>
+    <Carousel />
   </div>
   )
 }

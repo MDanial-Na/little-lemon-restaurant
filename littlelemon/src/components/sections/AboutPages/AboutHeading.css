@@ -9,12 +9,14 @@
   font-size: 4rem;
   margin-bottom: -3rem;
   color:#FFD23F;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .hero-text-page > h2 {
   font-size: 3rem;
   font-weight: bold;
   color:#FFD23F;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .about-page {
@@ -45,6 +47,10 @@
   position: relative;
   top: 1rem;
   left: 0rem;
+}
+
+strong {
+font-size: 1.5rem;
 }
 
 .about-subtext-page2 {
