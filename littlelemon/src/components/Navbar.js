@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navigation from "./Navigation";
-import Hamburger from "../assets/hamburger.png";
-import Close from "../assets/close.png";
+import Hamburger from "../assets/misc/hamburger.png";
+import Close from "../assets/misc/close.png";
 
 
 function Navbar() {
@@ -14,7 +14,7 @@ function Navbar() {
     <nav>
       <nav className="burger">
         <img
-          src={require("../assets/nav-logo.png")}
+          src={require("../assets/misc/nav-logo.png")}
           alt="Little Lemon logo"
           className="nav-image"
         ></img>

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './OrderHeading.css';
-import person from '../../../assets/person.png';
-import email from '../../../assets/email.png';
-import password from '../../../assets/password.png';
+import person from '../../../assets/misc/person.png';
+import email from '../../../assets/misc/email.png';
+import password from '../../../assets/misc/password.png';
 
 const OrderHeading = () => {   
 

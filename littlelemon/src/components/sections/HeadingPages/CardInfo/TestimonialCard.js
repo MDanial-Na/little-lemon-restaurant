@@ -1,4 +1,4 @@
-import avatar1 from '../../../../assets/avatar1.jpg';
+import avatar1 from '../../../../assets/misc/avatar1.jpg';
 function TestimonialCard(props) {
     return (
         <article className="testimonial-card">

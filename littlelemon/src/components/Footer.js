@@ -7,7 +7,7 @@ function Footer() {
       <menu>
         <li className="img-footer">
           <img
-            src={require("../assets/footer-logo.png")}
+            src={require("../assets/misc/footer-logo.png")}
             alt="Little Lemon logo"
           ></img>
         </li>

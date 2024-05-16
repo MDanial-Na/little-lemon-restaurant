@@ -18,12 +18,12 @@ function AboutHeading() {
               dedication to quality ingredients, traditional recipes, and exceptional hospitality has earned the restaurant a reputation for excellence in the Chicago dining scene.</p>
         </section>
         <section className="image-page">
-            <img src={require('../../../assets/italian-man2.jpg')} alt="Adrian and Mario"></img>
+            <img src={require('../../../assets/misc/italian-man2.jpg')} alt="Adrian and Mario"></img>
         </section>
       </article>
       <article className='about-page2'>
         <section className="image-page2">
-            <img src={require('../../../assets/italian-man3.jpg')} alt="Adrian and Mario 2"></img>
+            <img src={require('../../../assets/misc/italian-man3.jpg')} alt="Adrian and Mario 2"></img>
         </section>
           <section className='about-subtext-page2'>From classic pasta dishes bursting with flavors of ripe tomatoes, fragrant basil, and rich olive oil to 
           succulent seafood grilled to perfection and served with a squeeze of lemon, 
@@ -37,14 +37,7 @@ function AboutHeading() {
           the restaurant remains a shining beacon of Mediterranean hospitality in the heart of Chicago, inviting guests to savor the simple joys of good food, good company, and good times.
           </section>
       </article>
-      <iframe
-            title="Map of Restaurant Location"
-            width="600"
-            height="450"
-            style={{ border: 0 }}
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7064.257789423569!2d-87.67488676588565!3d41.88953372979904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slittle%20lemon%20Chicago!5e0!3m2!1sen!2smy!4v1715611673840!5m2!1sen!2smy"
-            allowFullScreen
-          ></iframe>
+      
     </div>
   )
 }

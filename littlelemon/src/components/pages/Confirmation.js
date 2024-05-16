@@ -18,7 +18,7 @@ function Confirmation() {
       <section className="redirect-buttons">
         <a
           className="redirect-button"
-          href={require("../../assets/menu.jpg")}
+          href={require("../../assets/misc/menu.jpg")}
           target="_blank"
           rel="noreferrer"
         >

@@ -1,5 +1,6 @@
 import HeroImage from '../../assets/food/food6.jpg'
 import Heading from '../sections/AboutPages/AboutHeading';
+import Carousel from '../sections/Carousel';
 import './About.css'
 
 function About() {
@@ -16,6 +17,7 @@ function About() {
       </div>
     </header>
     <Heading /> 
+    <Carousel />
     </>
   );
 }
