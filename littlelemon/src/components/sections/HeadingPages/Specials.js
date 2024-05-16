@@ -1,4 +1,3 @@
-import Carousel from './SpecialsCarousel';
 import GreekSalad from '../../../assets/food/greek-salad.jpg';
 import Bruschetta from '../../../assets/food/bruschetta.jpg';
 import LemonDessert from '../../../assets/food/lemon-dessert.jpg';
@@ -28,9 +27,6 @@ function Specials() {
                  
             </section>
 
-            <section className="specials-carousel">
-                <Carousel />
-            </section>
         </section>
     );
 }
