@@ -1,58 +1,26 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './OrderHeading.css';
-import person from '../../../assets/misc/person.png';
-import email from '../../../assets/misc/email.png';
-import password from '../../../assets/misc/password.png';
+import Menu from './Menu';
+import ShoppingCart from './ShoppingCart';
 
-const OrderHeading = () => {   
+function OrderHeading() {
+const [cartItems, setCartItems] = useState([]);
 
-    const [action, setAction] = useState("Sign Up");
+const addToCart = (item) => {
+  setCartItems([...cartItems, item]);
+};
 
-  return (
-    <div>
-        <div className='inputs'>
-        {
-            //using ternary operator to determine the user option. if user click at sign up user will need to enter name and viseversa
-            } 
-            {action==="Login"?<div></div>:<div className='input'>
-                <img src={person} alt="person"/>
-                <input type="text" placeholder='Name'/>
-            </div>}
-            
-            <div className='input'>
-                <img src={email} alt="email"/>
-                <input type="email" placeholder='Email Id'/>
-            </div>
-            <div className='input'>
-                <img src={password} alt="password"/>
-                <input type="password" placeholder='Password'/>
-            </div>
-            {
-                //using the ternary operator to hide the Confim password input
-            }
-            {action==="Login"?<div></div>:<div className='input'>
-                <img src={password} alt="confirm_password"/>
-                <input type="password" placeholder='Confirm Password'/>
-            </div>}
-            
-            {
-                //using the ternary operator to hide the Lost password message
-            }
-            {action==="Sign Up"?<div></div>:<div className="forgot-password">Lost password? <span>Click Here!</span></div>}
-            <div className="submit-container">
-                <div className={action==="Login"?"submit gray":"submit"} onClick={() =>{setAction("Sign Up")}}>Sign Up</div>
-                <div className={action==="Sign Up"?"submit gray":"submit"} onClick={() =>{setAction("Login")}}>Login</div>
-            </div>
-        </div>
-    </div>
-  )
+const removeFromCart = (index) => {
+  const newCartItems = cartItems.filter((_, i) => i !== index);
+  setCartItems(newCartItems);
+};
+
+return (
+  <div className="OrderHeading">
+    <Menu addToCart={addToCart} />
+    <ShoppingCart cartItems={cartItems} removeFromCart={removeFromCart} />
+  </div>
+);
 }
 
-export default OrderHeading
-
-
-
-
-
-
-
+export default OrderHeading;
