@@ -1,0 +1,70 @@
+/* SPECIALS */
+.specials {
+    padding: 2rem 5rem 0 5rem;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-name: slideDownFade;
+  }
+  
+  .specials-topbar {
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .specials-topbar > h1 {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .specials-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1vw;
+    transition: all 500ms ease-in-out;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .menu-card {
+    background-color: #355E3B;
+    padding-bottom: 1rem;
+  }
+  
+  .menu-card > img {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .menu-card-content {
+    margin: 0.5rem 2rem 1rem 2rem;
+  }
+  
+  .menu-card-content > h1 {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+  
+  .menu-card-content > h3 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .special-action-button {
+    background-color: #acdf87;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.2rem;
+    font-family: "Karla";
+    font-size: 2rem;
+  }
+  
+  .special-action-button:hover {
+    background-color: #FFD23F;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #edefee;
+    transition: 0.2s;
+  }
