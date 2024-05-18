@@ -12,7 +12,6 @@ function Specials() {
         <section className="specials">
             <article className="specials-topbar">
                 <h1>This weeks specials</h1>
-                <Link className="action-button" to="/menu">Click here for Full Menu</Link>
             </article>
 
             <section className="specials-cards">
@@ -26,6 +25,7 @@ function Specials() {
                 <SpecialCard image={Chickensoup} name="Chicken-Soup" price="$6.50" description="Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients. The classic chicken soup consists of a clear chicken broth, often with pieces of chicken or vegetables; common additions are pasta, noodles, dumplings, or carrots, and grains such as rice and barley."/>
                  
             </section>
+            <Link className="special-action-button" to="/menu">Click here for Full Menu</Link>
 
         </section>
     );

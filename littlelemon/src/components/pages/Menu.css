@@ -8,6 +8,7 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-name: slideDownFade;
+    background-color: #000000;
   }
   
   .menu-header {
@@ -20,7 +21,7 @@
     background-color: #355E3B;
     padding: 0 3rem 0 3rem;
     position: absolute;
-    top: 50%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;

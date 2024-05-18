@@ -1,4 +1,5 @@
-import HeroImage from '../../assets/food/food7.jpg'
+import HeroImage from '../../assets/misc/ll-restaurant5.jpg'
+import MenuHeading from '../sections/MenuPages/MenuHeading'
 import './Menu.css';
 
 
@@ -15,6 +16,7 @@ function Menu() {
         <div className="menu-header-text">
             <h1>Our Menu</h1>
         </div>
+        <MenuHeading />
     </header>
   </div>
   )

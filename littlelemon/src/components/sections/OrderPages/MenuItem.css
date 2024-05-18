@@ -17,9 +17,10 @@
 
   .menu-item img {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
+    object-fit: cover;
   }
   
   .price {
@@ -28,7 +29,7 @@
   }
   
   .add-to-cart-button {
-    background-color: #ff6347;
+    background-color: #FFD23F;
     color: white;
     padding: 10px 20px;
     border: none;

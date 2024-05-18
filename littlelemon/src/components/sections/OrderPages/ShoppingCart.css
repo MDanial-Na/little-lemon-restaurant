@@ -24,7 +24,7 @@
   }
   
   .shopping-cart button {
-    background-color: #ff6347;
+    background-color: #FFD23F;
     color: white;
     border: none;
     border-radius: 5px;
@@ -33,7 +33,7 @@
   }
   
   .shopping-cart button:hover {
-    background-color: #ff4500;
+    background-color: #FFD23F;
   }
   
   .shopping-cart p {

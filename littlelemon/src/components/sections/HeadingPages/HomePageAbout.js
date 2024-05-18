@@ -15,10 +15,10 @@ function HomePageAbout() {
             </section>
 
             <section className="images">
-                <img className="about-1" src={require('../../../assets/food/food8.jpg')} alt="Little Lemon restaurant cuisine 1"></img>
-                <img className="about-2" src={require('../../../assets/food/food7.jpg')} alt="Little Lemon restaurant cuisine 2"></img>
-                <img className="about-3" src={require('../../../assets/food/bruschetta.jpg')} alt="Little Lemon restaurant cuisine 3"></img>
-                <img className="about-4" src={require('../../../assets/food/chicken-soup.jpg')} alt="Little Lemon restaurant cuisine 4"></img>
+                <img className="about-1" src={require('../../../assets/misc/italian-man2.jpg')} alt="italian1"></img>
+                <img className="about-2" src={require('../../../assets/misc/italian-man3.jpg')} alt="italian2"></img>
+                <img className="about-3" src={require('../../../assets/misc/italian-man4.jpg')} alt="italian3"></img>
+                <img className="about-4" src={require('../../../assets/misc/italian-man5.jpg')} alt="italian4"></img>
             </section>
         </article>
         <div>

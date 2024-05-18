@@ -1,4 +1,4 @@
-import HeroImage from '../../assets/food/food6.jpg'
+import HeroImage from '../../assets/misc/ll-restaurant4.jpg'
 import Heading from '../sections/AboutPages/AboutHeading';
 import Carousel from '../sections/Carousel';
 import './About.css'

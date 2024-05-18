@@ -1,4 +1,4 @@
-import HeroImage from "../../../assets/food/ll-restaurant3.jpeg";
+import HeroImage from "../../../assets/misc/ll-restaurant2.jpg";
 import './ReservePagesHeading.css'
 
 function ReservePagesHeading() {

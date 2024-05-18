@@ -52,22 +52,6 @@ a:link{
   text-decoration: none;
 }
 
-.action-button {
-  background-color: #acdf87;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  border-radius: 0.2rem;
-  font-family: "Karla";
-  font-size: 2rem;
-}
-
-.action-button:hover {
-  background-color: #FFD23F;
-  color: #000000;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #edefee;
-  transition: 0.2s;
-}
 
 .subsection {
   margin-top: -2rem;
