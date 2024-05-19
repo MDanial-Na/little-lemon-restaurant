@@ -1,30 +1,36 @@
 /* src/components/ShoppingCart.css */
 .shopping-cart {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 8px;
     margin-top: 20px;
     text-align: left;
+    color: #000000;
+    margin-left: 5rem;
+    margin-right: 85rem;
   }
   
   .shopping-cart h2 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color:black;
   }
   
   .shopping-cart ul {
     list-style: none;
     padding: 0;
+    font-size: 1.5rem;
   }
   
   .shopping-cart ul li {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-bottom: 10px;
+    gap: 50px;
   }
   
   .shopping-cart button {
-    background-color: #FFD23F;
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,10 +40,12 @@
   
   .shopping-cart button:hover {
     background-color: #FFD23F;
+    color: #000000;
   }
   
   .shopping-cart p {
     font-size: 1.2rem;
     font-weight: bold;
+    color:#000000;
   }
   

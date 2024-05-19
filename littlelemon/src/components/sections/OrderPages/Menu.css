@@ -1,17 +1,13 @@
 /* src/components/Menu.css */
 .ordermenu {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .menu h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  padding: 2rem 5rem 0 5rem;
   }
   
   .menu-items {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    background-color: #355E3B;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1vw;
+    color: #ffffff;
+    margin-bottom: 2rem;
   }
   
