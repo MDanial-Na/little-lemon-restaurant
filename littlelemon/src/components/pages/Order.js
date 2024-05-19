@@ -1,4 +1,4 @@
-import HeroImage from '../../assets/misc/italian-man9.jpeg';
+import HeroImage from '../../assets/food/lemon-dessert.jpg';
 import Heading from '../sections/OrderPages/OrderHeading';
 import './Order.css';
 

@@ -1,4 +1,4 @@
-import HeroImage from '../../assets/misc/ll-restaurant.jpg'
+import HeroImage from '../../assets/food/prosciutto.jpeg'
 import Login from '../sections/LoginPages/LoginHeading';
 import './Logins.css'
 
