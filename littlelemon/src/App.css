@@ -110,6 +110,7 @@ a:link{
 .hero-text > h2 {
   font-size: 3rem;
   font-weight: bold;
+  margin-left: -40rem;
 }
 
 .hero-image {

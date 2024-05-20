@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import './BookingForm.css';
+import { useNavigate } from 'react-router-dom';
 
 const BookingForm = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +12,8 @@ const BookingForm = () => {
     guests: 1,
   });
 
+  const navigate = useNavigate();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -19,9 +21,7 @@ const BookingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Reservation Details:', formData);
-    alert('Reservation Submitted!');
+    navigate('/confirmation', { state: { reservationDetails: formData } });
   };
 
   return (
@@ -34,6 +34,7 @@ const BookingForm = () => {
             type="text"
             id="name"
             name="name"
+            placeholder='monkey d luffy'
             value={formData.name}
             onChange={handleChange}
             required
@@ -45,6 +46,7 @@ const BookingForm = () => {
             type="email"
             id="email"
             name="email"
+            placeholder='monkeydluffy@gmail.com'
             value={formData.email}
             onChange={handleChange}
             required
@@ -56,6 +58,7 @@ const BookingForm = () => {
             type="tel"
             id="phone"
             name="phone"
+            placeholder='012-99899899'
             value={formData.phone}
             onChange={handleChange}
             required
@@ -95,11 +98,11 @@ const BookingForm = () => {
             required
           />
         </div>
-        <button type="submit">Reserve Table</button>
+        <div className="submit-button-container">
+          <button type="submit" className="submit-button">Reserve Table</button>
+        </div>
       </form>
-        <Link className="action-button" to="/confirmation">
-          Book Table
-        </Link>
+        
     </div>
     
   );
