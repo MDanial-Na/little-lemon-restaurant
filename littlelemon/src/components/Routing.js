@@ -5,7 +5,7 @@ import Menu from './pages/Menu';
 import Reservations from './pages/Reservations'
 import Logins from './pages/Logins'
 import Order from './pages/Order';
-import Confirmation from './pages/Confirmation';
+import Confirmation from '../components/sections/ReservePages/Confirmation';
 
 
 function Routing() {

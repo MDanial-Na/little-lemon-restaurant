@@ -1,13 +1,22 @@
-
-import ReservationForm from "../sections/ReservePages/BookingForm";
+import BookingForm from "../sections/ReservePages/BookingForm";
+import HeroImage from '../../assets/food/bruschetta.jpg'
 import './Reservations.css';
 
 
 function Reservations() {
   return (
-    <div className="reservation">
-   
-      <ReservationForm />
+    <div>
+      <header className="reservation">
+      <img
+        className="reservation-header"
+        src={HeroImage}
+        alt="Little Lemon Ingredients"
+      ></img>
+      <div><BookingForm /></div>
+      <div className="reservation-header-text">
+        <h1>Reservation</h1>
+      </div>
+    </header>
     </div>
   );
 }

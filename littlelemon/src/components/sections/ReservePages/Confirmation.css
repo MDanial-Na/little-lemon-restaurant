@@ -1,0 +1,27 @@
+.confirmation-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .details-container {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .details-container p {
+    margin: 10px 0;
+  }
+  
+  .details-container strong {
+    color: #333;
+  }
