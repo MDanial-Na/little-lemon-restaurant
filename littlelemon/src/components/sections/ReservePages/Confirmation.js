@@ -1,21 +1,23 @@
-import HeroImage from "../../../assets/misc/ll-restaurant3.jpeg";
-import { Link } from "react-router-dom";
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './Confirmation.css';
+import { Link } from 'react-router-dom';
 
-function Confirmation() {
+const Confirmation = () => {
   const location = useLocation();
-  const { reservationDetails } = location.state;
+  const navigate = useNavigate();
+  const { state } = location;
+
+  if (!state || !state.reservationDetails) {
+    // If no state is found, redirect to the form page
+    navigate('/');
+    return null;
+  }
+
+  const { reservationDetails } = state;
 
   return (
-    <header className="confirmation-header">
-      <img
-        className="confirmation-image"
-        src={HeroImage}
-        alt="Little Lemon Ingredients"
-      ></img>
-      <div className="confirmation-page-container">
+    <div className="confirmation-page-container">
       <h2>Reservation Confirmed!</h2>
       <p>Thank you for your reservation. Here are your details:</p>
       <div className="details-container">
@@ -25,9 +27,6 @@ function Confirmation() {
         <p><strong>Date:</strong> {reservationDetails.date}</p>
         <p><strong>Time:</strong> {reservationDetails.time}</p>
         <p><strong>Guests:</strong> {reservationDetails.guests}</p>
-      </div>
-    </div>
-
       <section className="redirect-buttons">
         <Link className="redirect-button" to="/menu">Menu</Link>
         <Link className="redirect-button" to="/order">
@@ -36,8 +35,10 @@ function Confirmation() {
         <Link className="redirect-button" to="/">
           Home Page
         </Link>
-      </section>
-    </header>
+        </section>
+      </div>
+    </div>
+
   );
 }
 

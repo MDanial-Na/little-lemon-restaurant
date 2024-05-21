@@ -1,6 +1,7 @@
-import BookingForm from "../sections/ReservePages/BookingForm";
+
 import HeroImage from '../../assets/food/bruschetta.jpg'
 import './Reservations.css';
+import BookingForm from '../sections/ReservePages/BookingForm';
 
 
 function Reservations() {
