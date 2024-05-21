@@ -1,4 +1,5 @@
 import TestimonialCard from './CardInfo/TestimonialCard';
+import './Testimonial.css';
 
 function Testimonials() {
     return (
