@@ -1,4 +1,40 @@
-.heading-action-button {
+
+.hm-heading {
+  background-color: #355E3B;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.25rem 5rem 1.2rem 5rem;
+  margin-top: -1.4rem;
+}
+
+.hm-heading-text > h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
+}
+
+.hm-heading-text > h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 0rem;
+}
+
+.hm-heading-text2 {
+  margin-top: 1rem;
+}
+
+.hm-heading-image > img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  position: relative;
+  top: 1rem;
+  right: -2rem;
+  margin-bottom: -4rem;
+}
+
+.hm-heading-button {
     background-color: #acdf87;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 0.2rem;
@@ -6,7 +42,7 @@
     font-size: 2rem;
   }
   
-  .heading-action-button:hover {
+.hm-heading-button:hover {
     background-color: #FFD23F;
     color: #000000;
     border-style: solid;

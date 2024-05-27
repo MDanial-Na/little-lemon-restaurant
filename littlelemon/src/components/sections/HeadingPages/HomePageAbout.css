@@ -1,30 +1,31 @@
 /* ABOUT HOMEPAGE */
-.about-us {
+.hm-text {
     background-color: #FFD23F;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.25rem 5rem 2.5rem 5rem;
     min-height: 22rem;
     margin-bottom: -1rem;
-    grid-gap: 25vw;
+    grid-gap: 25vwzvvvc;
   }
   
-  .about-subtext {
-    margin-top: -2rem;
+  .hmabout-subtext {
+    margin-top: 2rem;
     font-weight: bold;
     text-align: justify;
     text-justify: auto;
+    margin-top: -1rem;
   }
   
-  .images {
+  .hm-image {
     max-height: 18rem;
     position: relative;
     top: 4rem;
     left: 2rem;
   }
   
-  .images > img {
-    width: 60%;
+  .hm-image > img {
+    width: 70%;
     height: 100%;
     object-fit: cover;
   }
@@ -32,39 +33,23 @@
   .about-1 {
     position: relative;
     top: -2rem;
-    left: -30rem;
+    left: 10rem;
   }
   
-  .about-2 {
-    position: absolute;
-    top: -2rem;
-    left: -15rem;
-  }
   
-  .about-3 {
-    position: absolute;
-    top: -2rem;
-    left: -0rem; 
-  }
   
-  .about-4 {
-    position: absolute;
-    top: -2rem;
-    left: 15rem;
-  }
-  
-  .about-action-button {
+  .hm-action-button {
     background-color: #acdf87;
     border-radius: 0.2rem;
     font-family: "Karla";
     font-size: 1.5rem;
     position:absolute;
-    margin-top: -100px;
+    margin-top: -3rem;
     left: 5rem;
     padding: 10px;
   }
   
-  .about-action-button:hover {
+  .hm-action-button:hover {
     background-color: #355E3B;
     color: #ffffff;
     border-style: solid;
@@ -73,15 +58,15 @@
     transition: 0.2s;
   }
   
-  .about-text > h1 {
-    font-size: 2.2rem;
+  .hmabout-text > h1 {
+    font-size: 4rem;
     margin-top: 0rem;
     margin-bottom: -2rem;
   }
 
 
-  .about-us-text > h2 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
+  .hmabout-text > h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
     margin-right: 2rem;
   }
