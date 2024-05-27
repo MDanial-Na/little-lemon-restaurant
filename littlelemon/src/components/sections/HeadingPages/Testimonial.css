@@ -4,11 +4,15 @@
   }
   
   .testimonials-topbar > h1{
-    text-align: flex-start;
     font-size: 3rem;
-    margin: 4rem 0 1rem 0;
+    margin-bottom: 0rem;
   }
   
+  .testimonials-topbar > h2{
+    font-size: 2rem;
+    margin-top: 0rem;
+  }
+
   .testimonials-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

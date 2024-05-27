@@ -15,7 +15,7 @@ function Heading() {
                 </section>
 
                 <section className="hm-heading-image">
-                    <img src={require('../../../assets/misc/italian-man2.jpg')} alt="Little Lemon restaurant cuisine"></img>
+                    <img src={require('../../../assets/misc/ll-restaurant3.jpeg')} alt="Little Lemon restaurant cuisine"></img>
                 </section>
             </article>
         </header>
